@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> My Admin Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    
+    <style type="text/css">
+    	body {
+  width: 80%;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* or space-around */
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  text-decoration: none;
+  color: black;
+
+</style>
+</head>
+<body>
+ 	
+ 	<h2 class="is-size-2 "> Admin Page </h2>
+
+  <section class="section">
+  
+    <div class="tile is-ancestor">
+    <div class="tile">
+    
+      <div class="tile is-parent is-6 is-vertical">
+        <article class="tile is-parent notification is-primary">
+          <a href="login_new.html">
+            <p class="is-centered">Add New Client </p></a>
+          
+        </article>
+          
+      </div>
+
+      <div class="tile is-parent is-6">
+        <article class="tile is-parent notification is-info">
+          <a href="login_new.html">
+            Client List And History</a>
+          
+        </article>
+          
+      </div>
+
+      <div class="tile is-parent is-6 is-vertical">
+        <article class="tile is-parent notification is-danger">
+          <a href="neworderslist.html">
+            New Order List</a>
+          
+        </article>
+          
+      </div>
+
+      <div class="tile is-parent is-6">
+        <article class="tile is-parent notification is-warning">
+          <a href="myorder.html">
+            Manage Product</a>
+          
+        </article>
+        
+      </div>
+      
+    </div>
+    </div>
+</section> 
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</body>
+</html>
